@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>special title</title>
+</head>
+<body>
+  <h1>Don't Press the Button</h1>
+  <button class="button" onclick="myFunction()">press me</button>
+  <script>
+    let text = "You don't listen well!";
+    function myFunction() {
+      document.getElementsByClassName('button')[0].innerHTML = text;
+    }
+  </script>
+</body>
+</html>
